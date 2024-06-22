@@ -12,6 +12,10 @@
         ```sh
         source venv_name/bin/activate
         ```
++ install libraries
+    ```sh
+    pip3 install -r requirements.txt
+    ```
 
 + clone the repo
 + run ```csv_data_validate.py```

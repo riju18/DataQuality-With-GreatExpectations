@@ -1,0 +1,7 @@
+db_creds:
+  drivername: postgres
+  host: '<your_host_name>'
+  port: '<your_port>'
+  username: '<your_username>'
+  password: '<your_password>'
+  database: '<your_database_name>'

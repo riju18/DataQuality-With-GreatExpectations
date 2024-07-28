@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DataQuality-With-GreatExpectations
 
 # How to start
@@ -23,3 +24,7 @@
 # Fresh start
 + [quickStart](https://docs.greatexpectations.io/docs/oss/tutorials/quickstart)
 + [All validations API](https://greatexpectations.io/expectations/?banner=false)
+=======
++ rename the ```.env_sample``` to ```.env```
++ run the ```*.py``` file
+>>>>>>> 77e4c53 (added README.md)

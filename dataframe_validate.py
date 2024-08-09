@@ -1,6 +1,5 @@
 import pandas as pd
 import great_expectations as gx
-from great_expectations.core.batch import BatchRequest, RuntimeBatchRequest
 
 # data
 data = {

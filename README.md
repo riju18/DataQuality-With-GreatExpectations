@@ -2,22 +2,40 @@
 
 # How to start
 
-+ make a python venv
-    ```sh
-    python3 -m venv venv_name
-    ```
-
-+ activate the env
-    + linux/mac
+1. If `pip`
+    + make a python venv
         ```sh
-        source venv_name/bin/activate
+        python3 -m venv venv_name
         ```
-+ install libraries
-    ```sh
-    pip3 install -r requirements.txt
-    ```
 
-+ clone the repo
+    + activate the env
+        + linux/mac
+            ```sh
+            source venv_name/bin/activate
+            ```
+    + install libraries
+        ```sh
+        pip3 install -r requirements.txt
+        ```
+
+    + clone the repo
+
+2. If `uv`
+    - clone the repo
+    - navigate to dir and run: 
+        ```sh 
+        uv init
+        ```
+    - remove `main.py`
+    - run 
+        ```sh 
+        uv sync
+        ```
+    - run
+        ```sh
+        uv add -r requirements.txt
+        ``` 
+
 + run ```csv_data_validate.py```
 
 # Fresh start

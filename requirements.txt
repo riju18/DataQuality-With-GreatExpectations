@@ -1,2 +1,4 @@
-great-expectations==1.5.0
-python-dotenv==1.10
+great-expectations==0.18.16
+numpy==1.26.4
+pandas==2.2.2
+python-dotenv==1.1.0
